@@ -46,7 +46,7 @@ export default function Home() {
       {/* HERO */}
       <Layout>
         <NavBar />
-        <main className="my-auto flex flex-col">
+        <main className="my-auto flex flex-col pt-10">
           <PseintLogo />
           <h1 className="text-center text-2xl font-black md:text-4xl">
             La mejor forma de{" "}
@@ -54,22 +54,20 @@ export default function Home() {
             <span className="uppercase text-primary">programar</span> es
             programando.
           </h1>
-          <div className="my-5 flex items-center justify-center gap-3">
+          <div className="my-5 grid grid-cols-1 md:grid-cols-3 max-w-xl mx-auto items-center justify-center gap-3">
             <Link href="/documentacion" className="btn btn-primary">
               Documentación <BiSolidRightArrow />
             </Link>
-            <Link href="#descargas" className="btn btn-neutral">
-              Descargar <BsDownload />
-            </Link>
-          </div>
-          <Link href="pseint" className="btn btn-sm btn-accent btn-outline mx-auto">
+          <Link href="pseint" className="btn btn-secondary">
               Versión Web <FaCode />
           </Link>
-          <div className="tooltip tooltip-right tooltip-warning max-w-fit mx-auto mt-5" data-tip="En proceso">
-          <button className="btn btn-sm btn-accent btn-outline mx-auto cursor-not-allowed" disabled>
+          <Link href="foro" className="btn">
               Foro <FaUserAstronaut />
-          </button>
+          </Link>
           </div>
+            <Link href="#descargas" className="btn btn-neutral btn-sm btn-outline mx-auto">
+              Descargar <BsDownload />
+            </Link>
         </main>
       </Layout>
 
