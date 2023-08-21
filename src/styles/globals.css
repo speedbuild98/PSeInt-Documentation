@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar {
+  @apply w-[5px];
+  @apply bg-base-300;
+  @apply rounded-lg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+  @apply rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-secondary;
+  @apply rounded-lg
+}

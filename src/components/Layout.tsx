@@ -7,9 +7,9 @@ const roboto = Roboto({
   weight: ["400", "700", "900" , "100", "300", "500"],
 });
 
-const Layout = ({children}) => {
+const Layout = ({children, id="", justify=""}) => {
   return (
-    <div className= {`${roboto.className} flex min-h-screen flex-col items-center justify-start bg-base-100`}>
+    <div id={id} className= {`${roboto.className} px-10 flex min-h-screen flex-col items-center ${justify} bg-base-100 md:px-20`}>
       {children}
     </div>
   )
