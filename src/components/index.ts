@@ -4,4 +4,4 @@ export {default as Footer} from "./Footer";
 export {default as PseintLogo} from "./PseintLogo";
 
 //Examples
-export {default as Suma} from "./Ejemplos";
+export {Suma} from "./Ejemplos";
