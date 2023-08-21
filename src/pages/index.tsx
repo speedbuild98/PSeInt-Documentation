@@ -62,11 +62,9 @@ export default function Home() {
               Descargar <BsDownload />
             </Link>
           </div>
-          <div className="tooltip tooltip-left tooltip-warning max-w-fit mx-auto" data-tip="En proceso">
-          <button className="btn btn-sm btn-accent btn-outline mx-auto cursor-not-allowed" disabled>
+          <Link href="pseint" className="btn btn-sm btn-accent btn-outline mx-auto">
               Versión Web <FaCode />
-          </button>
-          </div>
+          </Link>
           <div className="tooltip tooltip-right tooltip-warning max-w-fit mx-auto mt-5" data-tip="En proceso">
           <button className="btn btn-sm btn-accent btn-outline mx-auto cursor-not-allowed" disabled>
               Foro <FaUserAstronaut />
