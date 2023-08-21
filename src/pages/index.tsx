@@ -25,11 +25,23 @@ import {
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>PSeInt - Inicio</title>
-        <meta name="description" content="Created by Gallardo Dev" />
-        <link rel="icon" href="/favicon.svg" />
-      </Head>
+<Head>
+  <title>PSeInt - Inicio</title>
+  <meta name="description" content="Documentación de PSeInt" />
+  <meta name="keywords" content="PSeInt, programación, código, programar, aprender, programacion, codigo" />
+  <meta name="author" content="Lautaro Gallardo" />
+  <link rel="icon" href="/favicon.svg" />
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta property="og:title" content="PSeInt - A programar se aprender programando" />
+  <meta property="og:description" content="Documentación de PSeInt" />
+  <meta property="og:image" content="https://pseint.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo-white.f3b9e7b5.png&w=96&q=75" />
+  <meta property="og:url" content="https://pseint.vercel.app/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@DevGallardoLau" />
+  <meta name="theme-color" content="#000000" />
+</Head>
 
       {/* HERO */}
       <Layout>
