@@ -52,7 +52,13 @@ const Limpiar = () => {
   );
 };
 
-const Variable = ({children}) => {
+interface Props {
+  id?: string;
+  justify?: string;
+  children: React.ReactNode;
+}
+
+const Variable:React.FC<Props> = ({children}) => {
   return (
     <span className="text-success font-bold">
       {children}
